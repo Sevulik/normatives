@@ -326,9 +326,11 @@ footer .container{
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .overall-price{
     padding-right: 10px;
 }
+
 .buttons button{
     width: 218px;
     height: 56px;
@@ -336,6 +338,7 @@ footer .container{
     border: 1px solid black;
     color: black;
 }
+
 .buttons{
     display: flex;
     justify-content: space-between;
