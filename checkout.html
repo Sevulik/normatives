@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./signing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -31,69 +32,98 @@
         <div class="header-bottom">
             <div class="container">
                 <div class="logo">
-                    <a href="">Exclusive</a>
+                    <a href="./login page/login.html">Exclusive</a>
                 </div>
                 <nav>
                     <ul class="list-header">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="">Sign up</a></li>
+                        <li><a href="./signing.html">Sign up</a></li>
+
                     </ul>
                 </nav>
                 <div class="bottom-right">
                     <input type="search" placeholder="What are you looking for?">
-                    <img src="./icons/search.svg">
+                    <img class="search-icon" src="./icons/search.svg">
+                    <div class="icons-header-bottom">
+                        <a href="./wishlist.html">
+                            <img src=".//icons/heart.svg">
+                        </a>
+                        <a href="./cart.html">
+                            <img src="./icons/shopping-cart.svg" alt="">
+                        </a>
+                        <div class="dropdown-wrapper">
+                            <input type="checkbox" id="dropdown-toggle" class="dropdown-checkbox">
+                            <label for="dropdown-toggle" class="user-icon">
+                                <i class="modal_icon fa fa-user"></i>
+                            </label>
+                            <div class="modal">
+                                <ul class="modal-list">
+                                    <li class="modal-item">
+                                        <div class="modal-icon-box">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M24 27V24.3333C24 22.9188 23.5224 21.5623 22.6722 20.5621C21.8221 19.5619 20.669 19 19.4667 19H11.5333C10.331 19 9.17795 19.5619 8.32778 20.5621C7.47762 21.5623 7 22.9188 7 24.3333V27"
+                                                    stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M16.5 14C18.9853 14 21 11.9853 21 9.5C21 7.01472 18.9853 5 16.5 5C14.0147 5 12 7.01472 12 9.5C12 11.9853 14.0147 14 16.5 14Z"
+                                                    stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </svg>
+                                            <a href="#" class="modal-link">Manage My Account</a>
+                                        </div>
+                                    </li>
+                                    <li class="modal_item">
+                                        <div class="modal_icon_box">
+                                            <i class="modal_icon fa fa-shopping-bag"></i>
+                                            <a href="#" class="modal_link">My Order</a>
+                                        </div>
+                                    </li>
+                                    <li class="modal_item">
+                                        <div class="modal_icon_box">
+                                            <i class="modal_icon fa fa-times-circle"></i>
+                                            <a href="#" class="modal_link">My Cancellations</a>
+                                        </div>
+                                    </li>
+                                    <li class="modal_item">
+                                        <div class="modal_icon_box">
+                                            <i class="modal_icon fa fa-star"></i>
+                                            <a href="#" class="modal_link">My Reviews</a>
+                                        </div>
+                                    </li>
+                                    <li class="modal_item">
+                                        <div class="modal_icon_box">
+                                            <i class="modal_icon fa fa-sign-out-alt"></i>
+                                            <a href="#" class="modal_link">Logout</a>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-    <main>
-        <section class="signing-section">
-            <div class="sign-left">
-                <img src="./icons/dl.beatsnoop 1.png" alt="">
-            </div>
 
-                <div class="sign-right">
-                        <div class="container"> 
-                        <h1>Create an account</h1>
-                        <span>Enter your details below</span>
-                        <div class="details">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Email or Phone Number">
-                            <input type="password" placeholder="Password">
-                        </div>
-                        <button class="red-button">Create Account</button>
-                        <button class="google">
-                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1819_3336)">
-                                    <path
-                                        d="M23.766 12.7764C23.766 11.9607 23.6999 11.1406 23.5588 10.3381H12.24V14.9591H18.7217C18.4528 16.4494 17.5885 17.7678 16.323 18.6056V21.6039H20.19C22.4608 19.5139 23.766 16.4274 23.766 12.7764Z"
-                                        fill="#4285F4" />
-                                    <path
-                                        d="M12.2401 24.5008C15.4766 24.5008 18.2059 23.4382 20.1945 21.6039L16.3276 18.6055C15.2517 19.3375 13.8627 19.752 12.2445 19.752C9.11388 19.752 6.45946 17.6399 5.50705 14.8003H1.5166V17.8912C3.55371 21.9434 7.7029 24.5008 12.2401 24.5008Z"
-                                        fill="#34A853" />
-                                    <path
-                                        d="M5.50253 14.8003C4.99987 13.3099 4.99987 11.6961 5.50253 10.2057V7.11481H1.51649C-0.18551 10.5056 -0.18551 14.5004 1.51649 17.8912L5.50253 14.8003Z"
-                                        fill="#FBBC04" />
-                                    <path
-                                        d="M12.2401 5.24966C13.9509 5.2232 15.6044 5.86697 16.8434 7.04867L20.2695 3.62262C18.1001 1.5855 15.2208 0.465534 12.2401 0.500809C7.7029 0.500809 3.55371 3.05822 1.5166 7.11481L5.50264 10.2058C6.45064 7.36173 9.10947 5.24966 12.2401 5.24966Z"
-                                        fill="#EA4335" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_1819_3336">
-                                        <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                            Sign up with Google</button>
-                            <span class="account-log">Already have account?  <a href="./login.html">Log in</a></span>
-                    </div>
-    
-               
+    <main>
+        <div class="container">
+            <div class="links">
+                <span>Account /
+                    My Account /
+                    Product /
+                    View Cart /
+                    <b>CheckOut</b></span>
             </div>
-        </section>
+        </div>
     </main>
+
     <footer>
         <div class="container">
             <div class="footer-left">
@@ -143,11 +173,11 @@
                 <h1>Download App</h1>
                 <span>Save $3 with App New User Only</span>
                 <div class="footer-right-mid">
-                    <img src="./icons/Qr Code.png" alt="">
+                    <img src="./images/Qr Code.png" alt="">
                     <div class="right-mid-right">
-                        <img src="./icons/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png"
+                        <img src="./images/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png"
                             alt="">
-                        <img src="./icons/download-appstore.png" alt="">
+                        <img src="./images/download-appstore.png" alt="">
                     </div>
                 </div>
                 <div class="icons-footer">
@@ -189,19 +219,19 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M10.5 18.3332C15.1024 18.3332 18.8334 14.6022 18.8334 9.99984C18.8334 5.39746 15.1024 1.6665 10.5 1.6665C5.89765 1.6665 2.16669 5.39746 2.16669 9.99984C2.16669 14.6022 5.89765 18.3332 10.5 18.3332Z"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                <path
-                    d="M13 8.14799C13 8.14799 11.9706 6.6665 10.2549 6.6665C8.53924 6.6665 7.16669 8.14799 7.16669 9.99984C7.16669 11.8517 8.53924 13.3332 10.2549 13.3332C11.9706 13.3332 13 11.8517 13 11.8517"
-                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <span>
+            <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10.5 18.3332C15.1024 18.3332 18.8334 14.6022 18.8334 9.99984C18.8334 5.39746 15.1024 1.6665 10.5 1.6665C5.89765 1.6665 2.16669 5.39746 2.16669 9.99984C2.16669 14.6022 5.89765 18.3332 10.5 18.3332Z"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M13 8.14799C13 8.14799 11.9706 6.6665 10.2549 6.6665C8.53924 6.6665 7.16669 8.14799 7.16669 9.99984C7.16669 11.8517 8.53924 13.3332 10.2549 13.3332C11.9706 13.3332 13 11.8517 13 11.8517"
+                        stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
                 Copyright Rimel 2022. All right reserved</span>
         </div>
         </div>
     </footer>
+    </div>
 </body>
 
 </html>
