@@ -32,11 +32,10 @@ nav{
     color: white;
     gap: 8px;
     justify-content: space-around;
+    height: 48px;
 }
 .header-top{
     background-color: black;
-    display: flex;
-    justify-content: space-between;
 }
 a{
     color: white;
@@ -284,4 +283,54 @@ footer .container{
     gap: 10px;
     height: 40px; 
     align-items: center;
+}
+.input-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.input-item input{
+    width: 470px;
+    height: 50px;
+    background-color: #F5F5F5;
+    border: none;
+}
+.input-item span{
+    color: #c0bdbd;
+    font-weight: 400;
+    font-size: 16px;
+}
+.inputs{
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+}
+.billing-details{
+    margin-top: 80px;
+}
+.billing-details h1{
+    font-weight: 500;
+    font-size: 36px;
+}
+.checkbox-bottom{
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 40px;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 140px;
+}
+.checkbox{
+    accent-color: #DB4444;
+    width: 24px;
+    height: 24px;
+}
+.links{
+    margin-top: 80px;
+}
+.links a{
+    color: black;
+    text-decoration: none;
 }
