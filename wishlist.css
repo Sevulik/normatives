@@ -20,6 +20,19 @@ nav{
     border: none;
     border-radius: 12px;
 }
+.wishlist-card .add-to-cart{
+    /* position: absolute; */
+    /* bottom: -10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 270px;
+    height: 41px;
+    /* scale: 1; */
+    /* opacity: 0; */
+}
 .sale{
     display: flex;
     padding-left: 410px;
@@ -35,6 +48,9 @@ nav{
 }
 .header-top{
     background-color: black;
+    height: 76px;
+    padding-top: 30px;
+
 }
 a{
     color: white;
@@ -332,6 +348,11 @@ footer .container{
     /* padding-right: -3 00px; */
     
 }
+.card-top-right-1{
+    position: absolute;
+    left: 340px;
+}
+
 .wishlist-cards{
     display: flex;
     /* gap: 30px; */

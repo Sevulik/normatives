@@ -71,6 +71,7 @@ select{
 }
 .dropdown-wrapper{
     display: flex;
+    position: relative;
     /* align-items: center;
     gap: 0; */
 }
@@ -80,10 +81,10 @@ select{
 }
 .modal{
     position: absolute;
-    top: 40px;
+    top: 38px;
     right: 0;
-    background: #0000000A;
-    backdrop-filter: blur(80px);
+    background: #34343448;
+    backdrop-filter: blur(20px);
     color: white;
     border-radius: 10px;
     width: 220px;
@@ -95,7 +96,9 @@ select{
   align-items: center;
   text-align: start;
 }
-
+.modal a{
+    color: white;
+}
 .modal-icon {
   background: transparent;
   margin-right: 10px;

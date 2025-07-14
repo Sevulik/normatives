@@ -12,6 +12,14 @@
 nav{
     align-items: center;
 }
+.red-discount{
+    background-color: #DB4444;
+    color: white;
+    width: 50px;
+    height: 26px;
+    border: none;
+    border-radius: 12px;
+}
 .sale{
     display: flex;
     padding-left: 410px;
@@ -24,12 +32,10 @@ nav{
     color: white;
     gap: 8px;
     justify-content: space-around;
+    height: 48px;
 }
 .header-top{
     background-color: black;
-    height: 76px;
-    padding-top: 30px;
-    
 }
 a{
     color: white;
@@ -68,10 +74,11 @@ select{
     align-items: center;
     justify-content: space-between;
     padding-top: 40px;
-    padding-bottom: 90px;
 }
 .dropdown-wrapper{
-    display: flex;  
+    display: flex;
+    /* align-items: center;
+    gap: 0; */
 }
 .dropdown-wrapper a{
     font-weight: 400;
@@ -276,123 +283,4 @@ footer .container{
     gap: 10px;
     height: 40px; 
     align-items: center;
-}
-.cart-top{
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    font-weight: 400;
-    /* padding-top: 100px; */
-}
-.category{
-    margin-top: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0px 0px 5px #0000000D, 0px 0px 5px #0000000A, 0px 0px 5px #0000000D, 0px 0px 5px #0000000D;
-    height: 72px;
-    align-items: center;
-}
-.monitor{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    align-items: center;
-    box-shadow: 0px 0px 5px #0000000D, 0px 0px 5px #0000000A, 0px 0px 5px #0000000D, 0px 0px 5px #0000000D;
-    height: 72px;
-    margin-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.price-span{
-    padding-left: 20px;
-}
-.monitor-title{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-.price-span{
-    padding-right: 520px;
-}
-.quantity{
-    position: absolute;
-    right: 520px;
-    background: white;
-    border: 2px solid black;
-    color: black;
-    width: 72px;
-    height: 44px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.overall-price{
-    padding-right: 10px;
-}
-
-.buttons button{
-    width: 218px;
-    height: 56px;
-    background-color: white;
-    border: 1px solid black;
-    color: black;
-}
-
-.buttons{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-.cart-bottom{
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-between;
-}
-.cart-left{
-    display: flex;
-    gap: 16px;
-}
-.code{
-    width: 300px;
-    height: 56px;
-    padding: 10px;
-}
-.apply{
-    width: 211px;
-    height: 56px;
-    background-color: #DB4444;
-    color: white;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-}
-.cart-right{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid black;
-    width: 470px;
-    /* height: 324px; */
-    padding: 24px;
-    gap: 20px;
-    margin-bottom: 40px;
-}
-.cart-item{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid rgb(195, 195, 195);
-    padding-bottom: 20px;
-}
-.red-button{
-    background: #DB4444;
-    width: 260px;
-    height: 56px;
-    border: none;
-    color: white;
-    margin-left: 80px;
-    cursor: pointer;
 }
