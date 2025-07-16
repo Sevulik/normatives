@@ -506,6 +506,7 @@ footer .container {
     padding-top: 10px;
     align-items: center;
     justify-content: center;
+    padding-bottom: px;
 }
 .free{
     display: flex;
@@ -522,6 +523,7 @@ footer .container {
 .free-del{
     font-size: 16px;
     font-weight: 500;
+    padding-top: 10px;
 }
 .return-del{
     display: flex;

@@ -14,7 +14,10 @@
 nav {
     align-items: center;
 }
-
+.gaming{
+    color: black;
+    text-decoration: none;
+}
 .red-discount {
     background-color: #DB4444;
     color: white;
