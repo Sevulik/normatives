@@ -379,3 +379,46 @@ footer .container {
     padding-left: 35px;
     padding-right: 35px;
 }
+.contact{
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+.contact-right{
+    width: 800px;
+    padding: 40px 40px 31px 32px;
+    box-shadow: 5px 5px 5px #0000000D, 0px 5px 5px #0000000D, 0px 5px 5px #0000000D, 0px 5px 5px #0000000D;
+}
+.details input{
+    width: 235px;
+    height: 50px;
+    border: none;
+    background-color: #F5F5F5;
+    padding-left: 10px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.text input{
+    width: 728px;
+    height: 207px;
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 150px;
+    padding-left: 10px;
+    border: none;
+    background-color: #F5F5F5;
+}
+.button{
+    display: flex;
+    justify-content: end;
+    margin-top: 32px;
+}
+.red-button{
+    background: #DB4444;
+    color: white;
+    width: 215px;
+    height: 56px;
+    border: none;
+}
