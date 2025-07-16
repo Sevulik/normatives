@@ -530,3 +530,158 @@ footer .container {
     padding-top: 10px;
    padding-bottom: 10px;
 }
+.red-title{
+    color: rgb(244, 67, 67);
+    font-weight: 700;
+    font-size: 16px;
+}
+.red{
+    color: rgb(244, 67, 67);
+    width: 20px;
+    height: 40px;
+}
+.sales-right-top{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.flash-sales{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 650px; */
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+.sales-text{
+    font-weight: 600;
+    font-size: 36px;
+}
+.sales-right{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.sales{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+.sales-timer{
+    display: flex;
+    gap: 38px;
+    padding-top: 50px;
+}
+.sales-timer-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sales-timer-item h1{
+    font-weight: 800;
+    font-size: 32px;
+}
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 50px; 
+    padding-left: 520px;
+}
+.flash-sales .containerasd{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* justify-content: center; */
+}
+.card:hover .add-to-cart{
+    display: flex;
+    opacity: 1;
+    scale: 1;
+    justify-content: center;
+    align-items: center;
+    transition:all 500ms ease;
+}
+.-explore-card:hover .add-to-cart{
+    display: flex;
+    opacity: 1;
+    scale: 1;
+    justify-content: center;
+    align-items: center;
+    transition:all 500ms ease;
+}
+.card-top{
+    display: flex;
+    background-color: rgba(226, 224, 224, 0.763);
+    width: 270px;
+    height: 250px;
+}
+.discount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(255, 31, 31);
+    width: 55px;
+    height: 26px;
+}
+.card-top img{
+    width: 180px;
+    height: 190px;
+    padding-top: 100px;
+}
+.card-top-right{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    padding-top: 10px;
+    gap: 8px;
+}
+.info-card{
+    font-size: 16px;
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+.price{
+    color: rgb(255, 31, 31);
+    font-size: 16px;
+}
+.price-discount{
+    display: flex;
+    gap: 8px;
+}
+.containerasd{
+    margin-left: 40px;
+}
+
+.cards-sales{
+    display: flex;
+    /* gap: 50px; */
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+.add-to-cart{
+    position: absolute;
+    bottom: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 270px;
+    height: 41px;
+    scale: 2;
+    opacity: 0;
+}
